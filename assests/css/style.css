@@ -45,19 +45,19 @@ body{
     margin: 0 auto;
 } 
 
-.profile-photo{
+.profile-photo {
     width:2.7rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
 }
 
-img{
+img {
     display: block;
     width: 100%;
 }
 
-.btn{
+.btn {
     display: inline-block;
     padding: var(--btn-padding);
     font-weight: 500;
@@ -65,11 +65,12 @@ img{
     cursor: pointer;
     transition: all 300% ease;
     font-size: 0.9rem;
+    background-color: rgb(76, 226, 43);
 }
 
 .btn:hover{
     background-color: var(--color-primary);
-    color: white;
+    color: rgb(247, 240, 240);
 }
 
 .text-bold{
@@ -96,7 +97,7 @@ nav .container {
     justify-content: space-between;
 }
 
-nav.search-bar {
+nav .search-bar {
     background: var(--color-light);
     border-radius: var(--border-radius);
     padding: var(--search-padding);
@@ -108,4 +109,14 @@ nav .search-bar input[type="search"] {
     margin-left: 1rem;
     font-size: 0.9rem;
     color: var(--color-dark);
+}
+
+nav .search-bar input[type="search"]::placeholder {
+   color: var(--color-gray);
+}
+
+nav .create {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
