@@ -298,7 +298,70 @@ color: var(--color-primary);
     overflow: hidden;
 }
 
+.middle .stories .story::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    position: absolute;
+    bottom: 0;
+}
+.middle .stories .story .name {
+    z-index: 2;
+}
+
 .middle .stories .story:nth-child(1) {
     background: url("/SocialWebsite/assests/images/story-1.jpg")
     no-repeat center center/cover;
 }
+.middle .stories .story:nth-child(2) {
+    background: url("/SocialWebsite/assests/images/story-2.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3) {
+    background: url("/SocialWebsite/assests/images/story-3.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4) {
+    background: url("/SocialWebsite/assests/images/story-4.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5) {
+    background: url("/SocialWebsite/assests/images/story-5.jpg")
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6) {
+    background: url("/SocialWebsite/assests/images/story-6.jpg")
+    no-repeat center center/cover;
+}
+
+.middle .story .profile-photo{
+    width: 2rem;
+    height: 2rem;
+    align-self: start;
+    border: 3px solid var(--color-primary);
+}
+
+/* ------------------- Create Post ---------------------------------- */ 
+
+.middle .create-post {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: var(--color-white);
+    padding: 0.4rem var(--card-padding);
+    border-radius: var(--border-radius);
+}
+
+.middle .create-post input[type="text"] {
+    justify-self: start;
+    width: 100%;
+    padding-left:  1rem;
+    background: transparent;
+    color: var(--color-dark);
+    margin-right: 1rem;
+}
+ 
