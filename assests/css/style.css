@@ -510,3 +510,34 @@ main .container .right {
     bottom: 0;
     right: 0;
 }
+
+
+/* ============ Friend Request =============*/ 
+
+.right .friend-requests {
+    margin-top: 1rem;
+}
+
+.right .friend-requests h4 {
+    color:  var(--color-gray);
+    margin: 1rem 0;
+}
+
+.right .requests {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 0.7rem;
+}
+
+.right .requests .info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.right .requests .action {
+    display: flex;
+    gap: 1rem;
+}
