@@ -312,27 +312,27 @@ color: var(--color-primary);
 }
 
 .middle .stories .story:nth-child(1) {
-    background: url("/SocialWebsite/assests/images/story-1.jpg")
+    background: url("/assests/images/story-1.jpg")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2) {
-    background: url("/SocialWebsite/assests/images/story-2.jpg")
+    background: url("/assests/images/story-2.jpg")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3) {
-    background: url("/SocialWebsite/assests/images/story-3.jpg")
+    background: url("/assests/images/story-3.jpg")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4) {
-    background: url("/SocialWebsite/assests/images/story-4.jpg")
+    background: url("/assests/images/story-4.jpg")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5) {
-    background: url("/SocialWebsite/assests/images/story-5.jpg")
+    background: url("/assests/images/story-5.jpg")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(6) {
-    background: url("/SocialWebsite/assests/images/story-6.jpg")
+    background: url("/assests/images/story-6.jpg")
     no-repeat center center/cover;
 }
 
